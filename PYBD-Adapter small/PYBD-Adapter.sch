@@ -198,26 +198,26 @@ Wire Wire Line
 Connection ~ 8100 3350
 Wire Wire Line
 	8100 3350 8150 3350
-Wire Wire Line
-	7200 4400 7200 3700
-Wire Wire Line
-	7200 3700 6750 3700
-Wire Wire Line
-	6750 3700 6750 3650
-Connection ~ 6750 3650
 $Comp
 L Device:R R1
 U 1 1 5DA71EA6
 P 7350 4400
 F 0 "R1" V 7143 4400 50  0000 C CNN
-F 1 "10k" V 7234 4400 50  0000 C CNN
+F 1 "51k" V 7234 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7280 4400 50  0001 C CNN
 F 3 "~" H 7350 4400 50  0001 C CNN
 	1    7350 4400
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	7500 4400 8650 4400
 Wire Wire Line
 	8650 3800 8650 4400
+Wire Wire Line
+	7200 4400 7200 3900
+Wire Wire Line
+	7200 3900 6750 3900
+Wire Wire Line
+	6750 3900 6750 3850
+Connection ~ 6750 3850
 $EndSCHEMATC
